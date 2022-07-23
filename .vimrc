@@ -7,7 +7,7 @@ set noswapfile
 set noshowmode
 
 function! fmt()
- execute "!clang-format-14 --style=LLVM main.cpp &> temp; mv temp %"
+ execute "!clang-format-14 --style=LLVM % &> temp; mv temp %"
  execute "w" 
 endfunction
 :nmap <F12> :call fmt()<CR>
