@@ -18,7 +18,7 @@ function! Crtc()
  "execute "!chmod +x ~/mvplugs/testcpp.sh;./mvplugs/testcpp.sh &> temp; mv temp %"
  "endif
  "if name="newc"
- execute "!chmod +x ~/mvplugs/testcpp.sh;./mvplugs/testc.sh &> temp; mv temp %"
+ execute "!chmod +x ~/mvplugs/testc.sh;./mvplugs/testc.sh &> temp; mv temp %"
  "endif
  "if name="newjava"
  "execute "!chmod +x ~/mvplugs/testcpp.sh;./testjava.sh &> temp; mv temp %"
