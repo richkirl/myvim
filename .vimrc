@@ -6,8 +6,8 @@ set shiftwidth=1
 set noswapfile
 set noshowmode
 
-function! Assign()
+function! fmt()
  execute "!clang-format-14 --style=LLVM main.cpp &> temp; mv temp %"
  execute "w" 
 endfunction
-:nmap <F12> :call Assign()<CR>
+:nmap <F12> :call fmt()<CR>
