@@ -35,7 +35,7 @@ function! Crtcpp()
  "execute "!chmod +x ~/mvplugs/testcpp.sh;./testc.sh &> temp; mv temp %"
  "endif
  "if name="newjava"
- "execute "!chmod +x ~/mvplugs/testcpp.sh;./testjava.sh &> temp; mv temp %"
+ "execute "!chmod +x ~/mvplugs/testjava.sh;./testjava.sh &> temp; mv temp %"
  "endif     
 endfunction
 :nmap <F9> :call Crtcpp()<CR>
